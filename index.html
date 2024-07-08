@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tic-Tac-Toe</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container">
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+        </div>
+        <button id="restart">Restart</button>
+    </div>
+    <div class="popup hide">
+        <p id="message">Sample Message</p>
+        <button id="new-game">New Game</button>
+    </div>
+    <div class="score-board">
+        <span id="x-wins">X: 0</span>
+        <span id="o-wins">O: 0</span>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
